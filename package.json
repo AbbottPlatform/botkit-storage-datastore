@@ -1,11 +1,12 @@
 {
-  "name": "botkit-storage-datastore",
-  "version": "1.0.0",
+  "name": "@abbott-platform/botkit-storage-datastore",
+  "version": "1.0.1",
   "description": "Google Cloud Datastore driver for Botkit",
   "main": "index.js",
   "scripts": {
     "pretest": "jscs ./",
-    "test": "istanbul cover --report lcov --dir coverage/ _mocha ./tests --grep ./tests/*.js -- --colors"
+    "test": "istanbul cover --report lcov --dir coverage/ _mocha ./tests --grep ./tests/*.js -- --colors",
+    "publish": "npm publish --access public"
   },
   "keywords": [
     "botkit",
